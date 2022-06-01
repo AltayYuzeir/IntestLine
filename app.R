@@ -24,7 +24,7 @@ rad2deg <- function(rad) {
 }
 
 ui = shinyUI(fluidPage(
-  titlePanel(title = div(img(src = "hex-IntestLine-12.png", height = 100, width = 100),
+  titlePanel(title = div(img(src = "hex-IntestLine.png", height = 100, width = 100),
                          "IntestLine - Digitally unroll your intestine images")),
   
   tags$head(tags$style(
